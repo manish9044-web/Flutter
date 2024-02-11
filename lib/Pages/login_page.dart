@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(
-              "assests/images/login_image.png",
+              "assests/images/logo.png",
               fit: BoxFit.fitHeight,
             ),
             SizedBox(
@@ -34,8 +34,7 @@ class LoginPage extends StatelessWidget {
                 children: [
                   TextFormField(
                     decoration: InputDecoration(
-                        hintText: "Enter Username", labelText: "username"
-                        ),
+                        hintText: "Enter Username", labelText: "username"),
                   ),
                   TextFormField(
                     obscureText: true,
@@ -56,7 +55,6 @@ class LoginPage extends StatelessWidget {
               ),
             )
           ],
-        )
-        );
+        ));
   }
 }
